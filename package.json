@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "vite": "^5.4.10"
+  },
+  "name": "journal",
+  "version": "1.0.0",
+  "description": "Personal journal",
+  "main": "src/index.ts",
+  "scripts": {
+    "serve": "vite src",
+    "build": "vite build src --outDir ../public"
+  },
+  "repository": "git@gitlab.com:aikavakizuna/journal.git",
+  "author": "Ry Aikava <aikava.kizuna@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
